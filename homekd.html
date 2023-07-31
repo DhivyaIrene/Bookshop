@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<head>
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+        @import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+        .menus{
+            display: flex;
+            flex-flow: row wrap;
+            width: 100%;
+            height: 100px;
+            background-color:#fde259;
+            box-shadow: 3px 3px 10px rgb(247, 232, 154);
+        }
+        .logo{
+            flex: 1;
+            font-size: 50px;
+            text-align: center;
+            padding: 15px;
+            margin-right: 50px;
+            font-family:lucida handwriting;
+            font-style:italic;
+            color: rgb(68, 60, 0);
+            background-color:#fef287;
+        }
+        .list{
+          flex: 1;
+          display: flex;
+          flex-flow: row wrap;
+          padding-top: 40px;
+        }
+        li{
+            display: inline;
+            padding-right: 50px;
+        }
+        li a{
+            text-decoration: none;
+            color: rgb(74, 61, 2);
+            font-size: 18px;
+            font-family: Dosis;
+        }
+        li a:hover{
+            color:rgb(135, 122, 64);
+        }
+        .banner{
+            display: flex;
+            background-image: url("https://wallpapercave.com/wp/wp2213316.jpg");
+            background-size:cover;
+            background-repeat: no-repeat;
+            /* background-position: center; */
+            width: 100%;
+            height: 100vh;
+        }
+        .bannertext{
+            position: absolute;
+            margin-left: 380px;
+            margin-top: 30%;
+            flex-flow: column wrap;
+            flex: 1;
+            font-family:lucida handwriting;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content:baseline;
+            font-size: 38px;
+            color: rgb(56, 40, 1);
+        }
+        .serv{
+            display: flex;
+          flex-flow: row;
+          align-items: center;
+          justify-content: center;
+        }
+        .service{
+            flex: 1;
+          padding: 50px 10px;
+          text-align: center;
+          margin: 100px 50px;
+          display: flex;
+          flex-flow: column;
+          align-items: center;
+          justify-content: center;
+        }
+        .service img {
+          width: 80px;
+          height: 80px;
+          flex: 1;
+          padding: 20px;
+          border-style:solid;   
+          border-radius: 10px;
+          border-width: 15px;
+          border-color: #faf3af;
+        }
+        .service img:hover{
+            border-color: rgb(238, 224, 118);
+            transition: transform .2s;
+            transform: scale(1.2);
+        }
+        .service h2{
+            font-family: Dosis;
+            font-size: 20px;
+            color: #4c410b;
+        }
+        .na{
+            font-family: lucida handwriting;
+            text-align: center;
+            font-size: 25px;
+            color: rgb(97, 84, 21);
+        }
+        .go{
+            margin: 10px;
+            font-family: lucida handwriting;
+            text-align: center;
+            font-size: 45px;
+            color: rgb(92, 78, 1);
+        }
+        .arrival{
+            background-color: #fdfcb3;
+        }
+        .imggrid{
+            display: flex;
+          flex-flow: row;
+          align-items: center;
+        }
+        .new{            
+            flex: 1;
+          padding: 20px;
+          text-align: center;
+          display: flex;
+          flex-flow: column;
+          align-items: center;
+          justify-content: center;
+        }
+        .bkimg {
+          flex: 1;
+          height:"200px";
+          width:"180px";
+          border-style:solid; 
+          /* padding: 10px;   */
+          border-radius: 15px;
+          border-right-width: 50px;
+          border-bottom-width: 50px;
+          border-top-width: 15px;
+          border-left-width: 15px;
+          border-color: #fffde0;
+        }
+        .bkimg:hover{
+            border-color:rgb(225, 208, 96) ;
+            transition: transform .2s;
+            transform: scale(1.1);
+        }
+        .bkname{
+            font-family: lucida handwriting;
+            color: #494701;
+            font-size: 20px;
+        }
+        .authname{
+            font-family: lucida handwriting;
+            color: #494401;
+            font-size: 18px;
+        }
+        .register, .refresh{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .reg, .ref{
+            text-decoration: none;
+            text-align: center;
+            margin: 25px;
+            background-color: #faf2ad;
+            border-radius: 5px;
+            padding: 15px;
+            font-family: Dosis;
+            font-size: 18px;
+            color: rgb(74, 70, 1);
+        }
+        .reg:hover, .ref:hover{
+            background-color: #fcea60;
+            transition: transform .2s;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="menus">
+
+        <h2 class="logo">Dhirene's Desk</h2>
+
+        <ul class="list">
+            <li><a href="#"><b>HOME</b></a></li>
+            <li><a href="books.html"><b>BOOKS</b></a></li>
+            <li><a href="authors.html"><b>AUTHORS</b></a></li>
+            <li><a href="publish.html"><b>PUBLISH</b></a></li>
+            <li><a href="offers.html"><b>OFFERS</b></a></li>
+        </ul> 
+    </div>
+        <div class="banner">
+            <!-- <h1 class="bannertext">Seek for your best Paper Partner!</h1> -->
+        </div>
+        <div class="register">
+            <a class="reg" href="loginkd.html">REGISTER</a>
+        </div>
+    </div>    
+    <div class="serv">
+    <div class="service">
+        <img src="https://th.bing.com/th/id/OIP.rgW0drHMqzzdXgf-Gf_GQwAAAA?w=167&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7">
+        <h2>10000+ Happy Readers</h2>
+    </div>
+    <div class="service">
+        <img src="https://th.bing.com/th/id/OIP.3jxJefaKXPxHAO0A64IhVgHaHa?w=166&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7">
+        <h2>Renowned Authors</h2>
+    </div>
+    <div class="service">
+        <img src="https://th.bing.com/th/id/OIP.E2cl26vwDYNc346S52SrWgHaIj?w=146&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7">
+        <h2>Vast Genres</h2>
+    </div>
+    <div class="service">
+        <img src="https://th.bing.com/th/id/OIP.jJFoD2d8qQGMXUDZiuMgnQHaHa?w=162&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7" >
+        <h2>Publish Your Own Book</h2>
+    </div>
+    </div>
+    <div class="arrivhead">
+        <h2 class="na">NEW ARRIVALS</h2>
+        <h1 class="go">Grab on the Go</h1>
+    </div>
+    <div class="arrival">
+    <div class="imggrid">
+        <div class="new">
+            <img class="bkimg" src="https://th.bing.com/th?id=OSK.22cecde50ad98c07157ec955addedf8c&w=120&h=168&c=4&rs=1&qlt=80&o=6&dpr=1.4&pid=SANGAM">
+            <h2 class="bkname">Hell Bent</h2>
+            <h3 class="authname">&#10002 Leigh Bardugo</h3>
+        </div>
+        <div class="new">
+            <img class="bkimg" src="https://th.bing.com/th?id=OSK.58223818c09329b28f9bbb3976b4da00&w=120&h=168&c=4&rs=1&qlt=80&o=6&dpr=1.4&pid=SANGAM">
+            <h2 class="bkname">Hello Beautiful</h2>
+            <h3 class="authname">&#10002 Ann Napolitano</h3>
+        </div>
+        <div class="new">
+            <img class="bkimg" src="https://th.bing.com/th?id=OSK.7b2c357bd0900a395ab7adb0cb6980de&w=120&h=168&c=4&rs=1&qlt=80&o=6&dpr=1.4&pid=SANGAM">
+            <h2 class="bkname">Weyward</h2>
+            <h3 class="authname">&#10002 Emilia Hart</h3>
+        </div>
+        <div class="new">
+            <img class="bkimg" src="https://th.bing.com/th?id=OSK.e38e0570924ab61bb16213a3f9d6da24&w=120&h=168&c=4&rs=1&qlt=80&o=6&dpr=1.4&pid=SANGAM">
+            <h2 class="bkname">Identity</h2>
+            <h3 class="authname">&#10002 Nora Roberts</h3>
+        </div>
+    </div>
+    <div class="imggrid">
+
+        <div class="new">
+            <img class="bkimg" src="https://th.bing.com/th?id=OSK.b2127685462f44f83bf0a86b9d650a00&w=120&h=168&c=4&rs=1&qlt=80&o=6&dpr=1.4&pid=SANGAM">
+            <h2 class="bkname" font-size="">Tress of the Emerald Sea</h2>
+            <h3 class="authname">&#10002 Brandon Sanderson</h3>
+        </div>
+        <div class="new">
+            <img class="bkimg" src="https://th.bing.com/th?id=OSK.4485d6dbcaa45a1002246868ee0e8be2&w=120&h=168&c=4&rs=1&qlt=80&o=6&dpr=1.4&pid=SANGAM">
+            <h2 class="bkname">Chain of Thorns</h2>
+            <h3 class="authname">&#10002 Cassandra Clare</h3>
+        </div>
+        <div class="new">
+            <img class="bkimg" src="https://th.bing.com/th?id=OSK.fc3b1213a6c21ce59bd97ac9e48f4716&w=120&h=168&c=4&rs=1&qlt=80&o=6&dpr=1.4&pid=SANGAM">
+            <h2 class="bkname">The Sun and the Star</h2>
+            <h3 class="authname">&#10002 Rick Riordan</h3>
+        </div>
+        <div class="new">
+            <img class="bkimg" src="https://th.bing.com/th?id=OSK.4654a9f40fef3ff92695ee87f7406b9a&w=120&h=168&c=4&rs=1&qlt=80&o=6&dpr=1.4&pid=SANGAM">
+            <h2 class="bkname">The Housemaid's Secret</h2>
+            <h3 class="authname">&#10002 Freida McFadden</h3>
+        </div>
+    </div>
+    </div>
+    <div class="refresh">
+        <a class="ref" href="homekd.html">REFRESH</a>
+    </div>
+</body>
